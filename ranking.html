@@ -1,0 +1,41 @@
+<!-- Author: Md Mabrur Husan Dihyat
+ This is the voting page where users can vote which article they liked the most -->
+
+
+<html>
+  <head>
+    <link rel="stylesheet" href="bbc.css" />
+    <div id="navbar">BBC Technical Test</div>
+  </head>
+
+  <body class="rbody">
+    <div>
+      <div id="art"><p>Which article did you like the most?</p></div>
+      <form action="resultRank.php" method="POST" name="article">
+        <div id="art1">
+          <input type="radio" name="article" value="article1" checked /> Article 1
+        </div>
+        <div id="art2">
+          <input type="radio" name="article" value="article2" />
+          Article 2
+        </div>
+        <div id="art3">
+          <input type="radio" name="article" value="article3" />
+          Article 3
+        </div>
+        <div id="art4">
+          <input type="radio" name="article" value="article4" />
+          Article 4
+        </div>
+        <div id="art5">
+          <input type="radio" name="article" value="article5" />
+          Article 5
+        </div>
+        <div id="button">
+          <input type="submit" id="btn" />
+        </div>
+      </form>
+    </div>
+    
+  </body>
+</html>
